@@ -1,0 +1,164 @@
+.home-container {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 22px;
+  background-color: #00285F;
+  border-radius: 10px;
+}
+
+.home-content-container {
+  padding-top: 35px;
+  color: #fff;
+}
+
+.home-content-container h1 {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.home-content-container p {
+  color: #fff;
+  font-size: 0.6em;
+}
+
+.home-image-container svg {
+  width: 100%;
+  margin-top: 40px;
+  height: auto;
+}
+
+.home-button-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #EDEDED;
+  align-items: center;
+  border-radius: 10px;
+  padding: 28px 50px 25px;
+  margin-top: 20px;
+}
+
+.home-button-container p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #585858;
+  margin: 9px 0 0;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    padding: 15px;
+    font-size: 40px;
+  }
+
+  .home-card {
+    padding: 22px 58px;
+  }
+
+  .home-content-container h1 {
+    width: 506px;
+    margin-bottom: 20px;
+  }
+
+  .home-content-container p {
+    width: 506px;
+    margin-bottom: 20px;
+  }
+
+  .home-image-container svg {
+    width: 506px;
+  }
+
+  .home-button-container {
+    flex-direction: row;
+  }
+
+  .home-button-container p {
+    margin: 0 0 0 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-card {
+    padding: 79px 152px;
+  }
+
+  .home-image-container {
+    padding: 100px 20px;
+  }
+
+  .home-button-container {
+    padding: 42px 230px 41px 105px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-card {
+    padding: 68px 248px;
+  }
+
+  .home-image-container {
+    padding: 125px 20px;
+  }
+
+  .home-content-container {
+    padding-top: 20px;
+  }
+
+  .home-content-container h1 {
+    margin-bottom: 26px;
+  }
+
+  .home-content-container p {
+    margin-bottom: 47px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .home-card {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 63px 78px;
+  }
+
+  .home-content-container {
+    margin-left: 15px;
+    margin-right: 85px;
+    max-width: 420px;
+  }
+
+  .home-image-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .home-image-container svg {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .home-image-container svg {
+    width: 480px;
+  }
+
+  .home-button-container {
+    margin-top: 30px;
+  }
+}
